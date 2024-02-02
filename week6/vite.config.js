@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/live-vue3-training-chapter-works/week6/dist/',
+  base: '/live-vue3-training-chapter-2023/week6/dist/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
